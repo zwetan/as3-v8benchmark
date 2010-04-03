@@ -1,0 +1,25 @@
+V8 Benchmarks
+
+Simple framework for running the benchmark suites and
+computing a score based on the timing measurements.
+
+----
+
+Originally the v8 benchmarks are made to test the performance of the
+V8 JavaScript engine used in the Google Chrome browser.
+
+Subsequently the v8 benchmarks have been ported to ActionScript (typed and untyped)
+to run the same benchmarks under the Tamarin virtual machine
+used in the Flash Player plugin.
+
+My very small contribution is to have
+ - reorganized and cleaned up a bit the code
+ - added some code to run the benchmarks asynchronously
+ - added a build to package a SWC
+
+You can find more informations on the following links:
+
+http://code.google.com/apis/v8/benchmarks.html
+http://v8.googlecode.com/svn/data/benchmarks/current/run.html
+http://www.mozilla.org/projects/tamarin/
+http://hg.mozilla.org/tamarin-redux/raw-file/76c2c53af37e/test/performance/v8/typed/base.as
